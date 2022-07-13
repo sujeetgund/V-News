@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .iconButton {
+        @apply h-10 w-10 p-2 hover:bg-gray-100 cursor-pointer rounded-full text-gray-500;
+    }
+}
+
+body {
+    @apply bg-[#F6F8FC];
+}
