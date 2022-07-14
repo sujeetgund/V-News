@@ -10,8 +10,8 @@ function Header() {
             <Image
                 src='/logo.png'
                 alt='V News'
-                width={100}
-                height={35}
+                width={120}
+                height={40}
                 objectFit='contain'
             />
 

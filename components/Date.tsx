@@ -15,7 +15,7 @@ function DateComponent() {
                 <p className='text-gray-600 font-light text-sm'>{today.format("dddd, DD MMMM")}</p>
             </div>
 
-            <div className='flex bg-white items-center px-3 py-2 rounded-xl shadow-md'>
+            <div className='flex bg-white items-center px-3 py-1 rounded-xl shadow-md'>
                 <img src="/weather.webp" className='h-20 w-20 object-contain' alt="" />
                 <div className='flex flex-col'>
                     <p className='text-gray-600 text-md font-extralight'>Maharashtra</p>
